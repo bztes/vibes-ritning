@@ -1,6 +1,6 @@
 {
 	"name": "vibes-ritning",
-	"version": "0.0.1",
+	"version": "0.0.0",
 	"private": true,
 	"license": "AGPL-3.0-or-later",
 	"type": "module",
@@ -25,6 +25,8 @@
 		"db:studio": "drizzle-kit studio"
 	},
 	"devDependencies": {
+		"@changesets/changelog-github": "^1.0.1",
+		"@changesets/cli": "^3.0.3",
 		"@eslint/js": "^10.0.1",
 		"@lucide/svelte": "^1.68.0",
 		"@sveltejs/adapter-node": "^6.0.0",
@@ -56,5 +58,6 @@
 	"dependencies": {
 		"@libsql/client": "^0.17.3",
 		"drizzle-orm": "^0.45.2"
-	}
+	},
+	"packageManager": "pnpm@12.17.0"
 }
